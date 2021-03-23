@@ -24,10 +24,10 @@ https://github.com/99rafa/JsonFlattener
 Open a terminal in the JsonFlattener directory and run, for example
 
 ```bash
-cat <inputFile>.json | python3 JsonFlattener.py
+cat /path/to/jsonfile | python3 JsonFlattener.py
 
 ```
-where `<inputFile>.json` is the name of file that contains the JSON object.
+where `/path/to/jsonfile` is the path of the .json file that contains the JSON object.
 
 A prompt will appear
 
