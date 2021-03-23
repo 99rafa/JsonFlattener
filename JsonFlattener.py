@@ -72,7 +72,7 @@ if __name__ == "__main__":
 #Testing handleJsonObjects function
 
 def test_answer1():
-    f = open("input1.json", "r")
+    f = open("example/input1.json", "r")
 
     #import json object from file
     json_objects = json.loads(f.read())
@@ -83,7 +83,7 @@ def test_answer1():
     assert json.dumps(result_json) == "{\"a\": 1, \"b\": true, \"c.d\": 3, \"c.e\": \"test\"}", "Simple JSON transformation"
 
 def test_answer2():
-    f = open("input2.json", "r")
+    f = open("example/input2.json", "r")
 
     json_objects = json.loads(f.read())
 
@@ -93,7 +93,7 @@ def test_answer2():
 
 
 def test_answer3():
-    f = open("input3.json", "r")
+    f = open("example/input3.json", "r")
 
     json_objects = json.loads(f.read())
 

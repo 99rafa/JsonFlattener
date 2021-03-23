@@ -37,7 +37,7 @@ Check the file 'out.json' to get the flattened JSON version.
 
 ```
 
-The 'out.json' file is where the flattened JSON object is stored.
+The `out.json` file is where the flattened JSON object is stored.
 
 
 To run the tests, run
@@ -48,7 +48,7 @@ pytest JsonFlattener.py
 
 ```
 
-which will run the 3 unit tests produced, each one of them with one of the input files included in the folder.
+which will run the 3 unit tests produced, each one of them with one of the input files included in the `example` folder.
 
 
 ## Observations
