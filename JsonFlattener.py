@@ -1,5 +1,5 @@
 import json
-import fileinput
+import sys
 import unittest
 
 def merge(dict1, dict2):
@@ -48,7 +48,7 @@ def main():
     #input handling
     json_string = ""
 
-    for line in fileinput.input():
+    for line in sys.stdin:
         json_string += line
 
     #convert json string to json object

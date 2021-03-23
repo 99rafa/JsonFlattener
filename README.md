@@ -27,7 +27,7 @@ Open a terminal in the JsonFlattener directory and run, for example
 cat <inputFile>.json | python3 JsonFlattener.py
 
 ```
-where <inputFile>.json is the name of file that contains the JSON object.
+where `<inputFile>.json` is the name of file that contains the JSON object.
 
 A prompt will appear
 
